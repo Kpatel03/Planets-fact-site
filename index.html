@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Earth | The Planets</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <nav>
+    <h1 class="logo">THE PLANETS</h1>
+    <ul class="nav-links">
+      <li><a href="mercury.html">Mercury</a></li>
+      <li><a href="venus.html">Venus</a></li>
+      <li><a href="index.html">Earth</a></li>
+      <li><a href="mars.html">Mars</a></li>
+      <li><a href="jupiter.html">Jupiter</a></li>
+      <li><a href="saturn.html">Saturn</a></li>
+      <li><a href="uranus.html">Uranus</a></li>
+      <li><a href="neptune.html">Neptune</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="planet-image earth">
+        <img src="C:\Users\kajal\Desktop\PRODESK Internship\assignment 8\images\earth.webp">
+    </div>
+
+    <section class="info">
+      <h2>EARTH</h2>
+      <p>Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.</p>
+      <p class="source">Source: <a href="https://en.wikipedia.org/wiki/Earth" target="_blank">Wikipedia</a></p>
+
+      <div class="tabs">
+        <button class="tab active" data-tab="overview"> OVERVIEW</button>
+        <button class="tab" data-tab="structure"> INTERNAL STRUCTURE</button>
+        <button class="tab" data-tab="geology"> SURFACE GEOLOGY</button>
+      </div>
+
+      <div class="tab-content active" id="overview"></div>
+
+      <div class="tab-content" id="structure">
+        <p>Earth has a layered internal structure composed of a crust, mantle, outer core, and inner core. The inner core is solid, while the outer core is liquid.</p>
+      </div>
+
+      <div class="tab-content" id="geology">
+        <p>Earth's surface geology includes mountains, volcanoes, oceans, and tectonic plates. Erosion, weathering, and sedimentation shape the surface.</p>
+      </div>
+
+    </section>
+
+    <section class="facts">
+      <div><p>Rotation Time</p><h3>0.99 Days</h3></div>
+      <div><p>Revolution Time</p><h3>365.26 Days</h3></div>
+      <div><p>Radius</p><h3>6,371 KM</h3></div>
+      <div><p>Average Temp.</p><h3>16°C</h3></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
